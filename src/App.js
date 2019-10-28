@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import TodoForm from './components/TodoComponents/TodoForm';
 import TodoList from './components/TodoComponents/TodoList';
+import "./components/TodoComponents/Todo.css";
 
 
 const toDoData = [ // array of objects for the TODO list data
@@ -44,6 +45,8 @@ class App extends Component {
     });
   };
 
+  filterCompleted = () => {};
+
   // toggleItem checks to see whether a task on the TODO list should show or not show. 
   // if an task is completed then it will not show, else it will show
   toggleItem = id => {
@@ -76,8 +79,8 @@ class App extends Component {
         <TodoForm addItem={this.addItem} />
       </div>
         <TodoList 
-        list={this.state.list}
-        toggleItem={this.toggleItem} /> 
+         toggleItem={this.toggleItem}
+        list={this.state.list} /> 
       </div>
     );
   }

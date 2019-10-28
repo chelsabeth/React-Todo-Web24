@@ -23,6 +23,7 @@ class TodoForm extends React.Component {
         console.log("is this thing on?");
         // add our typed in item to the list!
         this.props.addItem(this.state.newItem);
+        this.setState({ newItem: '' });
     };
 
     render() {
