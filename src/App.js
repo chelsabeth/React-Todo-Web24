@@ -80,7 +80,8 @@ class App extends Component {
       </div>
         <TodoList 
          toggleItem={this.toggleItem}
-        list={this.state.list} /> 
+         clearCompleted={this.clearCompleted}
+         list={this.state.list} /> 
       </div>
     );
   }
