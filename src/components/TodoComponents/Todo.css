@@ -1,3 +1,4 @@
 .completed {
     text-decoration: line-through;
 }
+/* this is what makes the items be "crossed out" I am selecting the className from Todo.js */
