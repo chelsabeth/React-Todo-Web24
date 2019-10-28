@@ -74,7 +74,7 @@ class App extends Component {
     return (
     <div>
       <div className='header-of-app'>
-        <h2>Welcome to your Todo App!</h2>
+        <h1>Welcome to your Todo App!</h1>
         <TodoForm addItem={this.addItem} />
       </div>
         <TodoList 

@@ -2,3 +2,24 @@
     text-decoration: line-through;
 }
 /* this is what makes the items be "crossed out" I am selecting the className from Todo.js */
+
+body {
+    background-color: dimgray;
+    color: white;
+    text-align: center;
+}
+
+.todo-list {
+    font-size: 22px;
+}
+
+.add-task-btn {
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.clear-item {
+    font-size: 15px;
+    border-radius: 5px;
+}
+
