@@ -45,7 +45,6 @@ class App extends Component {
     });
   };
 
-  filterCompleted = () => {};
 
   // toggleItem checks to see whether a task on the TODO list should show or not show. 
   // if an task is completed then it will not show, else it will show
